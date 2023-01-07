@@ -1,0 +1,16 @@
+@echo off
+
+Rem SET A PATH VARIABLE
+
+path=%path%;C:\xampp\php
+
+
+Rem SERVER PHP
+
+php -S localhost:8080 D:\PHP\curl-pdf-html-url.php
+
+
+
+Rem OPEN SERVER
+
+start chrome http://localhost:8080
